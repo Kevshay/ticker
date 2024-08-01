@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Stock Ticker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Dev Financial Company</h1>
+        <p>Welcome to DFC. The best investment you can make is an investment in yourself. We value risk and reward pyramid. The more you learn, the more you'll earn.</p>
+        <br>
+        <div class="stock-ticker">
+            <ul aria-hidden="true">
+                <li class="minus">
+                    <span class="company">AAPL</span>
+                    <span class="price">181.16</span>
+                    <span class="change">-1.36 (-0.75%)</span>
+                </li>
+                <li class="plus">
+                    <span class="company">TSLA</span>
+                    <span class="price">199.40</span>
+                    <span class="change">+7.43 (+3.87%)</span>
+                </li>
+                <li class="plus">
+                    <span class="company">NFLX</span>
+                    <span class="price">587.65</span>
+                    <span class="change">+4.09 (+0.70%)</span>
+                </li>
+                <li class="minus">
+                    <span class="company">GOOGL</span>
+                    <span class="price">266.75</span>
+                    <span class="change">-2.36 (-0.89%)</span>
+                </li>
+                <li class="plus">
+                    <span class="company">PDGA</span>
+                    <span class="price">339.61</span>
+                    <span class="change">+8.00 (+4.91%)</span>
+                </li>
+            </ul>
+            <ul aria-hidden="true">
+                <li class="minus">
+                    <span class="company">AAPL</span>
+                    <span class="price">181.16</span>
+                    <span class="change">-1.36 (-0.75%)</span>
+                </li>
+                <li class="plus">
+                    <span class="company">TSLA</span>
+                    <span class="price">199.40</span>
+                    <span class="change">+7.43 (+3.87%)</span>
+                </li>
+                <li class="plus">
+                    <span class="company">NFLX</span>
+                    <span class="price">587.65</span>
+                    <span class="change">+4.09 (+0.70%)</span>
+                </li>
+                <li class="minus">
+                    <span class="company">GOOGL</span>
+                    <span class="price">266.75</span>
+                    <span class="change">-2.36 (-0.89%)</span>
+                </li>
+                <li class="plus">
+                    <span class="company">PDGA</span>
+                    <span class="price">339.61</span>
+                    <span class="change">+8.00 (+4.91%)</span>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="controls">
+            <label for="space">Adjust Space: </label>
+            <input type="range" id="space" min="0" max="50" value="10">
+            <br>
+            <br>
+            <label for="speed">Adjust Speed: </label>
+            <input type="range" id="speed" min="1" max="20" value="5">
+            <br>
+            <br>
+            <label for="bgColor">Background Color: </label>
+            <input type="color" id="bgColor" value="#ffffff">
+            <br>
+            <br>
+            <label for="textColor">Text Color: </label>
+            <input type="color" id="textColor" value="#000000">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
